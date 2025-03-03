@@ -35,5 +35,12 @@ namespace bai16_FormatText
             formatText .MdiParent = this;
             formatText.Show();
         }
+
+        private void aboutBoxToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AboutBox1 aboutBox1 = new AboutBox1();
+            aboutBox1.MdiParent = this;
+            aboutBox1.Show();
+        }
     }
 }

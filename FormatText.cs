@@ -50,5 +50,10 @@ namespace bai16_FormatText
         {
             lblLaptrinh.Font = new Font (lblLaptrinh.Font.Name , lblLaptrinh.Font.Size,lblLaptrinh.Font.Style ^ FontStyle.Bold);
         }
+
+        private void FormatText_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -39,6 +39,7 @@
             this.côngCụToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.lblInfo = new System.Windows.Forms.Label();
+            this.aboutBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -88,7 +89,8 @@
             // 
             this.trợGiúpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.thoátToolStripMenuItem,
-            this.côngCụToolStripMenuItem});
+            this.côngCụToolStripMenuItem,
+            this.aboutBoxToolStripMenuItem});
             this.trợGiúpToolStripMenuItem.Name = "trợGiúpToolStripMenuItem";
             this.trợGiúpToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
             this.trợGiúpToolStripMenuItem.Text = "Trợ giúp";
@@ -114,17 +116,24 @@
             // 
             this.lblInfo.AutoSize = true;
             this.lblInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblInfo.Location = new System.Drawing.Point(36, 55);
+            this.lblInfo.Location = new System.Drawing.Point(27, 91);
             this.lblInfo.Name = "lblInfo";
             this.lblInfo.Size = new System.Drawing.Size(70, 25);
             this.lblInfo.TabIndex = 2;
             this.lblInfo.Text = "label1";
             // 
+            // aboutBoxToolStripMenuItem
+            // 
+            this.aboutBoxToolStripMenuItem.Name = "aboutBoxToolStripMenuItem";
+            this.aboutBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.aboutBoxToolStripMenuItem.Text = "Thong tin";
+            this.aboutBoxToolStripMenuItem.Click += new System.EventHandler(this.aboutBoxToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.BackColor = System.Drawing.SystemColors.GrayText;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.lblInfo);
             this.Controls.Add(this.menuStrip1);
@@ -156,6 +165,7 @@
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem formatTextToolStripMenuItem;
         private System.Windows.Forms.Label lblInfo;
+        private System.Windows.Forms.ToolStripMenuItem aboutBoxToolStripMenuItem;
     }
 }
 
